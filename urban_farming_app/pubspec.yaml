@@ -1,0 +1,27 @@
+name: urban_farming_app
+description: A urban farming marketplace app built with Flutter
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.12.1
+  cloud_firestore: ^4.15.1
+  firebase_storage: ^11.7.0
+  image_picker: ^1.0.4
+  provider: ^6.1.1
+  intl: ^0.18.1
+  fluttertoast: ^8.2.2
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
